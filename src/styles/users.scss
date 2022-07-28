@@ -1,0 +1,30 @@
+@import '../App.scss';
+
+.users-container {
+    padding: 20px 50px 20px 50px;
+
+    .filter-text {
+        font-family: 'Jungka';
+        font-size: 17px;
+        line-height: 20px;
+        color: $dark-gray;
+    }
+
+    .counter-text {
+        font-family: 'Jungka';
+        font-size: 25px;
+        line-height: 29px;
+        color: $dark-gray;
+    }
+
+    .thumbnail{
+        margin: 5px;
+        cursor: pointer;
+    }
+}
+
+.loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

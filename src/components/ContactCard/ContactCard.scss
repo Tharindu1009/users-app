@@ -1,0 +1,31 @@
+@import '../../App.scss';
+
+.contact-card {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    .icon-wrapper {
+        width: 36px;
+        height: 36px;
+        background-color: $primary-blue;
+        border-radius: 50%;
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon{
+            color: $white;
+        }
+    }
+
+    .text {
+        font-family: 'Jungka';
+        font-size: 20px;
+        line-height: 23px;
+        color: $black;
+        margin-top: 5px;
+    }
+}

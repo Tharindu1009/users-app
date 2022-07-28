@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Jungka Medium Regular';
+  src: local('Jungka Medium Regular'), url('./assets/fonts/Jungka Medium Regular.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'Jungka-Bold';
+  src: local('Jungka-Bold'), url('./assets/fonts/Jungka-Bold.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'Jungka-Book';
+  src: local('Jungka-Book'), url('./assets/fonts/Jungka-Book.otf') format('otf')
+}
+
+@font-face {
+  font-family: 'Jungka-Regular';
+  src: local('Jungka-Regular'), url('./assets/fonts/Jungka-Regular.otf') format('otf')
+}

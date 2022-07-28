@@ -1,0 +1,55 @@
+@import '../../App.scss';
+
+.btn {
+    cursor: pointer;
+    font-family: 'Jungka';
+    margin: 5px;
+
+    &__primary {
+        border: 1px solid $primary-blue;
+        background-color: $primary-blue;
+        height: 46px;
+        color: $white;
+        border-radius: 3px;
+        font-size: 14px;
+        line-height: 16.41px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__curved {
+        border: 1px solid $light-gray;
+        background-color: $white;
+        border-radius: 23px;
+        height: 38px;
+        width: 90px;
+        color: $primary-blue;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+
+        &__selected {
+            background-color: $light-blue;
+            border-color: $primary-blue;
+        }
+    }
+
+    &__back {
+        border: 1px solid $primary-blue;
+        background-color: $white;
+        border-radius: 3px;
+        width: 120px;
+        height: 46px;
+        color: $primary-blue;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .icon {
+        margin: 0px 0px -5px -5px;
+    }
+
+}
